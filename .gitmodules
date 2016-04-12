@@ -1,0 +1,3 @@
+[submodule "libs/donet"]
+	path = libs/donet
+	url = git@github.com:hingsir/donet.git
