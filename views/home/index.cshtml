@@ -10,4 +10,13 @@
     <li>@item</li>
   }
 </ul>
+<button type="button" id="ajax">ajax test</button>
+<script type="text/javascript" src="/static/libs/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+  $("#ajax").click(function(){
+    $.get('/home/query',function(data){
+      alert(data);
+    })
+  })
+</script>
 @RenderPage("../common/footer.cshtml")
