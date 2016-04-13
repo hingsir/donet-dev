@@ -1,2 +1,2 @@
-ViewBag.foo = "city list";
-ViewBag.bar = new string[] {"Huzhou","HangZhou","TaiZhou" };
+ViewBag.foo = "城市列表";
+ViewBag.bar = new string[] {"北京","上海","广州","深圳" };
