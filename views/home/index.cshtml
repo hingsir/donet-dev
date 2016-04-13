@@ -15,6 +15,7 @@
 <script type="text/javascript">
   $("#ajax").click(function(){
     $.get('/home/query',function(data){
+      //var data = $.parseJSON(data);
       alert(data);
     })
   })
